@@ -20,7 +20,7 @@ Tune firehose is an event delivery mechanism introduced as a premium feature for
 
 The system comprises of 3 parts.
 
-1. The exposed endpoint that will receive all the event data from Tune's firehose and will push that event data to an SQS queue. This endpoint will be deployed on AWS lambda, giving us the scalability and speed required to handle all these events without having to build out the infastructure. The code can be found in `feed_queue.py`
+1. The exposed endpoint that will receive all the event data from Tune's firehose and will push that event data to an SQS queue. This endpoint will be deployed on AWS lambda, giving us the scalability and speed required to handle all these events without having to build out the infrastructure. The code can be found in `feed_queue.py`
 
 2. The Amazon SQS queue is our queuing service that will be able to feed event data to the series of microservices responsible for writing to a sqlitedb.
 
