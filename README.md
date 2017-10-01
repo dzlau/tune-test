@@ -1,6 +1,6 @@
 ## Synopsis
 
-This is a project is for Tune's implementation engineer challenge
+This is a project is for Tune's implementation engineer challenge. This app take's data from Tune's firehose platform and write it to a sqllite database. You can see sample injested data in `sample-data.json`
 
 ## Installation
 
