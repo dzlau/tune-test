@@ -3,16 +3,16 @@
 This is a project is for Tune's implementation engineer challenge. This app take's data from Tune's firehose platform and write it to a sqllite database. You can see sample injested data in `sample-data.json`
 
 ## Installation
-
-1. add your own `.env` file with keys
+1. Clone the repo
+2. Add your own `.env` file with keys
   ```
   QUEUE_URL='your-sqs-url'
   AWS_REGION='your-aws-region'
   AWS_KEY='your-aws-key'
   AWS_SECRET='your-aws-secret'
   ```
- 2. `pip install`
- 3. `python read_queue.py`
+ 3. `pip install -r requirements.txt`
+ 4. `python read_queue.py`
 
 ## Technical Explanation
 
